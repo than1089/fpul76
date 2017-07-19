@@ -67,6 +67,58 @@ html, body{
 .text-white{
 	color: #fff;
 }
+.text-black{
+	color: #333;
+}
 img{
 	max-width: 100%;
+}
+.half-circle{
+	position: relative;
+}
+.half-circle:after{
+	content: '';
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background-color: inherit;
+	border-radius: 50%;
+	z-index: 1;
+}
+.half-circle.left:after{
+	left: -25px;
+	top: 50%;
+	margin-top: -25px;
+
+}
+.half-circle.right:after{
+	right: -25px;
+	top: 50%;
+	margin-top: -25px;
+
+}
+.half-circle.bottom:after{
+	bottom: -25px;
+	left: 50%;
+	margin-left: -25px;
+
+}
+
+@media (max-width: 767px){
+	.half-circle.left:after, .half-circle.right:after{
+		display: none;
+	}
+}
+
+/*Top bar*/
+#top-bar .user-info{
+	line-height: 40px;
+}
+#top-bar span.name{
+	margin-right: 10px;
+}
+#top-bar .fa-user{
+	width: 24px;
+	height: 24px;
+	padding: 4px 6px;
 }
