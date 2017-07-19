@@ -18,91 +18,171 @@
         <h2 class="float-left">Lorem Ipsum</h2>
         <div class="float-right user-info"><span class="name">ACCEDI</span> <i class="fa fa-user rounded-circle bg-white text-black"></i></div>
     </div>
-    <nav class="navbar navbar-toggleable-md">
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-light navbar-toggleable-md">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#main-menu" aria-controls="main-menu" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand" href="#">Logo</a>
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-            <ul class="navbar-nav ml-auto">
+        <a class="navbar-brand" href="#" style="background-color: #000; width: 120px; text-align: center; color: #fff">Logo</a>
+        <div class="collapse navbar-collapse" id="main-menu">
+            <ul class="navbar-nav ml-auto mr-2">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">NOTIZIE <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="#">NORMATIVA</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link disabled" href="#">Disabled</a>
+                    <a class="nav-link" href="#">FAQ</a>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown01">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                    </div>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">LINK</a>
                 </li>
             </ul>
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="text" placeholder="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            <form class="form-inline my-2 my-lg-0" id="search-form">
+                <input type="text" placeholder="CERCA...">
+                <button type="submit" class="bg-orange"><i class="fa fa-search"></i></button>
             </form>
         </div>
     </nav>
-    <div class="container">
-        <div class="row mb-5">
-            <div class="col-sm-8 p-0">
+    <nav class="navbar navbar-toggleable-sm bg-grey" id="second-menu">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a href="#">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a href="#">SCUOLE</a>
+            </li>
+            <li class="nav-item">
+                <a href="#">STRUCTURE OSPITANTI</a>
+            </li>
+            <li class="nav-item">
+                <a href="#">FAMIGLIE E STUDENTI</a>
+            </li>
+            <li class="nav-item">
+                <a href="#">MUR</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container-fluid">
+        <div class="row my-4">
+            <div class="col-md-8 p-0">
                 <img src="img/alternanza-607047641.jpg">
             </div>
-            <div class="col-sm-4 bg-orange pt-4 pl-4 half-circle left">
+            <div class="col-md-4 bg-orange pt-4 pl-4 half-circle left">
                 <h3>L'Alternanza</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet mollis quam. Nunc lobortis gravida diam pulvinar consequat. Mauris vestibulum, neque vitae lobortis molestie, justo lorem vestibulum ipsum, non porttitor felis lorem ut augue. Cras dapibus sem ut finibus egestas. Aenean malesuada consectetur magna, a ornare eros congue elementum. Ut ullamcorper malesuada hendrerit. Vestibulum vulputate ipsum eget aliquam varius. Cras ac risus iaculis, tincidunt erat eu, commodo sem. Praesent sit amet ipsum a est mattis dictum ut vitae urna. Donec faucibus dolor vel arcu bibendum tristique. Suspendisse in lobortis elit. Phasellus mattis orci pharetra ultricies lacinia.</p>
                 <p class="text-center"><strong>Approfondisci</strong></p>
             </div>
         </div>
         <div class="row">
-            <div class="col-sm-6 bg-grey p-4 half-circle right">
+            <div class="col-md-6 bg-grey p-4 half-circle right">
                 <h3 class="text-center text-white">IMFORMATI</h3>
                 <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet mollis quam. Nunc lobortis gravida diam pulvinar consequat. Mauris vestibulum, neque vitae lobortis molestie, justo lorem vestibulum ipsum, non porttitor felis lorem ut augue. Cras dapibus sem ut finibus egestas. Aenean malesuada consectetur magna, a ornare eros congue elementum. Ut ullamcorper malesuada hendrerit. Vestibulum vulputate ipsum eget aliquam varius. Cras ac risus iaculis, tincidunt erat eu, commodo sem. Praesent sit amet ipsum a est mattis dictum ut vitae urna. Donec faucibus dolor vel arcu bibendum tristique. Suspendisse in lobortis elit. Phasellus mattis orci pharetra ultricies lacinia.</p>
                 <p class="text-center text-white"><strong>Approfondisci</strong></p>
             </div>
-            <div class="col-sm-6 bg-orange p-4" style="padding-left: 35px!important">
+            <div class="col-md-6 bg-orange p-4" style="padding-left: 35px!important">
                 <h3 class="text-center">ATTIVATI</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet mollis quam. Nunc lobortis gravida diam pulvinar consequat. Mauris vestibulum, neque vitae lobortis molestie, justo lorem vestibulum ipsum, non porttitor felis lorem ut augue. Cras dapibus sem ut finibus egestas. Aenean malesuada consectetur magna, a ornare eros congue elementum. Ut ullamcorper malesuada hendrerit. Vestibulum vulputate ipsum eget aliquam varius. Cras ac risus iaculis, tincidunt erat eu, commodo sem. Praesent sit amet ipsum a est mattis dictum ut vitae urna. Donec faucibus dolor vel arcu bibendum tristique. Suspendisse in lobortis elit. Phasellus mattis orci pharetra ultricies lacinia.</p>
                 <p class="text-center"><strong>Approfondisci</strong></p>
             </div>
         </div>
-        <h2 class="text-center text-uppercase m-0 py-4 half-circle bottom bg-white">Le storie de sussesso</h2>
-        <div class="row bg-orange pt-5">
-            <div class="col-sm-4">
-                <div class="card bg-orange">
-                    <img class="card-img-top mb-2" src="img/diriigente2-351731978.jpg" alt="Card image cap">
-                    <div class="card-block bg-white">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card bg-orange">
-                    <img class="card-img-top mb-2" src="img/diriigente2-351731978.jpg" alt="Card image cap">
-                    <div class="card-block bg-white">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="col-sm-4">
-                <div class="card bg-orange">
-                    <img class="card-img-top mb-2" src="img/diriigente2-351731978.jpg" alt="Card image cap">
-                    <div class="card-block bg-white">
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        <h3 class="text-center text-uppercase m-0 py-4 half-circle bottom bg-white">Le storie de sussesso</h3>
+        <div class="row pt-5 bg-orange">
+            <div class="col-sm-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card bg-orange border-0">
+                                <img class="card-img-top mb-2" src="img/diriigente2-351731978.jpg" alt="Card image cap">
+                                <div class="card-block bg-white">
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card bg-orange border-0">
+                                <img class="card-img-top mb-2" src="img/diriigente2-351731978.jpg" alt="Card image cap">
+                                <div class="card-block bg-white">
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="card bg-orange border-0">
+                                <img class="card-img-top mb-2" src="img/diriigente2-351731978.jpg" alt="Card image cap">
+                                <div class="card-block bg-white">
+                                    <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="col-12">
-            	<p class="text-center mt-4"><strong>Leggi Tuto</strong></p>
+                <p class="text-center mt-4 font-weight-bold">Leggi Tuto</p>
             </div>
         </div>
-        <h2 class="text-center text-uppercase mt-3 mb-3">Notizie</h2>
+
+        <h3 class="text-center text-uppercase m-0 py-4 half-circle bottom bg-white">Notizie</h3>
+        <div class="row pt-5 bg-light-grey">
+            <div class="col-sm-12">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p class="text-uppercase border-bottom pb-2">20 giugno 2017</p>
+                            <p class="font-weight-bold">
+                                Scuola, al via Gruppo di lavoro per la riforma delle rappresentanze degli studenti e dei gentiori. A novembre la presentazione delle proposte 
+                            </p>
+                            <p class="text-uppercase border-bottom text-right pb-2">Condividi</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="text-uppercase border-bottom pb-2">20 giugno 2017</p>
+                            <p class="font-weight-bold">
+                                Scuola, al via Gruppo di lavoro per la riforma delle rappresentanze degli studenti e dei gentiori. A novembre la presentazione delle proposte 
+                            </p>
+                            <p class="text-uppercase border-bottom text-right pb-2">Condividi</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p class="text-uppercase border-bottom pb-2">20 giugno 2017</p>
+                            <p class="font-weight-bold">
+                                Scuola, al via Gruppo di lavoro per la riforma delle rappresentanze degli studenti e dei gentiori. A novembre la presentazione delle proposte 
+                            </p>
+                            <p class="text-uppercase border-bottom text-right pb-2">Condividi</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <p class="text-center my-4 font-weight-bold">Leggi Tuto</p>
+            </div>
+        </div>
+
+        <footer>
+            <div class="row bg-grey py-lg-5 py-3 text-white">
+                <div class="col-sm-12">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <a href="#" style="background-color: #000; padding: 10px 45px; color: #fff; display: inline-block;">Logo 2</a>
+                                <br>
+                                <a href="">Amministrazione Trasparente</a>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-1">Contatti</p>
+                                <hr class="mt-0">
+                                Per informazioni e chiarimenti e possbibile scrivere una mail all'indirizzo
+                                <a href="mailto: loremipsum@example.com">loremipsum@example.com</a>
+                            </div>
+                            <hr>
+                            <div class="col-sm-12 clearfix">
+                                <p class="float-left">Tuti i diritti riservati Ⓒ 2016 &nbsp;&nbsp;<a href="">Lorem Ipsum</a></p>
+                                <p class="float-right"><a href="">Note Legali</a>&nbsp;&nbsp;&nbsp;<a href="">Privacy</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 </body>
 
