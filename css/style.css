@@ -54,6 +54,8 @@
 }
 html, body{
 	font-family: TitilliumWeb;
+  max-width: 1400px;
+  margin: auto;
 }
 
 #main-menu li a{
@@ -100,9 +102,7 @@ html, body{
 .text-black{
 	color: #333;
 }
-img{
-	max-width: 100%;
-}
+
 .half-circle{
 	position: relative;
 }
@@ -162,4 +162,8 @@ footer a{
 }
 footer hr{
   border-top: 1px solid rgba(154, 153, 153, 0.1);
+}
+/*Slider*/
+.carousel-item img{
+  align-self: center;
 }
