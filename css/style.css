@@ -55,11 +55,41 @@
 html, body{
 	font-family: TitilliumWeb;
 }
+
+#main-menu li a{
+  color: #444;
+}
+#second-menu {
+  border-top: 3px solid #ff9722;
+}
+#second-menu li a{
+  color: #fff;
+  padding: 0;
+  margin: 0 0.5em;
+  font-weight: lighter;
+  font-size: 14px;
+}
+#second-menu li.active a{
+  border-bottom: 1px solid #ff9722;
+}
+#search-form button{
+  border: none;
+  height: 27px;
+}
+#search-form input{
+  font-size: 14px;
+  border: 1px solid #555;
+  border-right: none;
+  padding: 2px 5px;
+}
 .bg-orange{
 	background-color: #ff9722;
 }
 .bg-grey{
 	background-color: #2f383d;
+}
+.bg-light-grey{
+  background-color: #e3e3e3;
 }
 .bg-white{
 	background-color: #fff;
@@ -103,7 +133,9 @@ img{
 	margin-left: -25px;
 
 }
-
+.border-bottom{
+  border-bottom: 3px solid #ff9722;
+}
 @media (max-width: 767px){
 	.half-circle.left:after, .half-circle.right:after{
 		display: none;
@@ -121,4 +153,13 @@ img{
 	width: 24px;
 	height: 24px;
 	padding: 4px 6px;
+}
+
+/*Footer*/
+footer a{
+  color: #559aaa;
+  text-decoration: underline;
+}
+footer hr{
+  border-top: 1px solid rgba(154, 153, 153, 0.1);
 }
